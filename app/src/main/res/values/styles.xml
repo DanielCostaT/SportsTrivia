@@ -1,0 +1,137 @@
+<resources>
+
+    <!-- Base application theme following a Light Green (primary) and Teal (accent) palette -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for Header Image -->
+    <style name="HeaderImageTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!-- Style for Title text -->
+    <style name="TitleTextTheme">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/body_title_size</item>
+        <item name="android:paddingTop">@dimen/body_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/body_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/body_horizontal_margin</item>
+    </style>
+
+    <!-- Style for Body text -->
+    <style name="BodyTextTheme">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/body_text_size</item>
+        <item name="android:paddingTop">@dimen/body_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/body_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/body_horizontal_margin</item>
+    </style>
+
+    <!-- Style for request texts -->
+    <style name="RequestTextTheme">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/body_text_size</item>
+        <item name="android:paddingTop">@dimen/body_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/body_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/body_horizontal_margin</item>
+    </style>
+
+    <!-- Style for Question Layout -->
+    <style name="QuestionLayoutTheme">
+        <item name="android:layout_height">@dimen/list_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/list_margin</item>
+        <item name="android:layout_marginTop">@dimen/list_margin</item>
+        <item name="android:layout_marginBottom">@dimen/list_margin</item>
+    </style>
+
+    <!-- Style for Question Texts -->
+    <style name="QuestionTextTheme">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/colorQuestionText</item>
+        <item name="android:textSize">@dimen/question_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/list_text_margin</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Style for Sports Icon -->
+    <style name="SportsIconTheme">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!-- Style for Input text according to Material Design's Light Theme -->
+    <style name="InputTheme">
+        <item name="android:layout_height">@dimen/input_text_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/input_text_size</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingLeft">@dimen/input_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/input_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/input_vertical_margin</item>
+        <item name="android:dividerPadding">@dimen/input_vertical_margin</item>
+    </style>
+
+    <!--Style for Radio Groups -->
+    <style name="RadioGroupTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--Style for Radio Buttons-->
+    <style name="RadioButtonTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/radio_text_size</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:buttonTint">@color/textPrimary</item>
+        <item name="android:layout_marginLeft">@dimen/radio_horizontal_margin</item>
+        <item name="android:paddingLeft">@dimen/radio_text_margin</item>
+    </style>
+
+    <!--Style for Checkboxes-->
+    <style name="CheckboxTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/checkbox_text_size</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:buttonTint">@color/textPrimary</item>
+        <item name="android:layout_marginLeft">@dimen/checkbox_horizontal_margin</item>
+        <item name="android:paddingLeft">@dimen/checkbox_text_margin</item>
+    </style>
+
+    <!--Style for Divider Line-->
+    <style name="DividerLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorDivider</item>
+        <item name="android:layout_margin">@dimen/body_vertical_margin</item>
+    </style>
+
+    <!--Style for Submission Button-->
+    <style name="SubmissionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/body_vertical_margin</item>
+    </style>
+</resources>

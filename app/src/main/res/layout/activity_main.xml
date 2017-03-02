@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devncoffee.sportstrivia.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <ImageView
+            style="@style/HeaderImageTheme"
+            android:src="@drawable/sports_header" />
+
+        <!-- Body Texts -->
+        <TextView
+            style="@style/TitleTextTheme"
+            android:text="@string/intro" />
+
+        <TextView
+            style="@style/BodyTextTheme"
+            android:text="@string/description" />
+
+        <TextView
+            style="@style/RequestTextTheme"
+            android:layout_marginBottom="8dp"
+            android:text="@string/fill_request" />
+
+        <EditText
+            android:id="@+id/name_edit_text_view"
+            style="@style/InputTheme"
+            android:hint="@string/name_data" />
+
+        <EditText
+            android:id="@+id/mail_edit_text_view"
+            style="@style/InputTheme"
+            android:hint="@string/mail_data" />
+
+        <!-- Quizz Start -->
+        <!-- Soccer Question 1 -->
+        <LinearLayout
+            style="@style/QuestionLayoutTheme"
+            android:background="@color/colorSoccer">
+
+            <ImageView
+                style="@style/SportsIconTheme"
+                android:src="@drawable/soccer_player_icon" />
+
+            <TextView
+                style="@style/QuestionTextTheme"
+                android:text="@string/soccer_question_1" />
+        </LinearLayout>
+
+        <RadioGroup
+            style="@style/RadioGroupTheme">
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/soccer_question_1_answer_1" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/soccer_question_1_answer_2" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/soccer_question_1_answer_3" />
+
+            <RadioButton
+                android:id="@+id/soccer_question_1_correct_answer"
+                style="@style/RadioButtonTheme"
+                android:text="@string/soccer_question_1_correct_answer" />
+        </RadioGroup>
+
+        <!-- Soccer Question 2 -->
+        <LinearLayout
+            style="@style/QuestionLayoutTheme"
+            android:background="@color/colorSoccer">
+
+            <ImageView
+                style="@style/SportsIconTheme"
+                android:src="@drawable/soccer_player_icon" />
+
+            <TextView
+                style="@style/QuestionTextTheme"
+                android:text="@string/soccer_question_2" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/soccer_question_2_correct_answer_1"
+            style="@style/CheckboxTheme"
+            android:text="@string/soccer_question_2_correct_answer_1" />
+
+        <CheckBox
+            android:id="@+id/soccer_question_2_correct_answer_2"
+            style="@style/CheckboxTheme"
+            android:text="@string/soccer_question_2_correct_answer_2" />
+
+        <CheckBox
+            android:id="@+id/soccer_question_2_wrong_answer_1"
+            style="@style/CheckboxTheme"
+            android:text="@string/soccer_question_2_answer_1" />
+
+        <CheckBox
+            android:id="@+id/soccer_question_2_wrong_answer_2"
+            style="@style/CheckboxTheme"
+            android:text="@string/soccer_question_2_answer_2" />
+
+        <!-- Soccer Question 3 -->
+        <LinearLayout
+            style="@style/QuestionLayoutTheme"
+            android:background="@color/colorSoccer">
+
+            <ImageView
+                style="@style/SportsIconTheme"
+                android:src="@drawable/soccer_player_icon" />
+
+            <TextView
+                style="@style/QuestionTextTheme"
+                android:text="@string/soccer_question_3" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            style="@style/RadioGroupTheme">
+
+            <RadioButton
+                android:id="@+id/soccer_question_3_correct_answer"
+                style="@style/RadioButtonTheme"
+                android:text="@string/soccer_question_3_correct_answer" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/soccer_question_3_answer_1" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/soccer_question_3_answer_2" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/soccer_question_3_answer_3" />
+        </RadioGroup>
+
+        <!-- Basketball Question 1 -->
+        <LinearLayout
+            style="@style/QuestionLayoutTheme"
+            android:background="@color/colorBasket">
+
+            <ImageView
+                style="@style/SportsIconTheme"
+                android:src="@drawable/basket_player_icon" />
+
+            <TextView
+                style="@style/QuestionTextTheme"
+                android:text="@string/basketball_question_1" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            style="@style/RadioGroupTheme">
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/basketball_question_1_answer_1" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/basketball_question_1_answer_2" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/basketball_question_1_answer_3" />
+
+            <RadioButton
+                android:id="@+id/basketball_question_1_correct_answer"
+                style="@style/RadioButtonTheme"
+                android:text="@string/basketball_question_1_correct_answer" />
+        </RadioGroup>
+
+        <!-- Basketball Question 2 -->
+        <LinearLayout
+            style="@style/QuestionLayoutTheme"
+            android:background="@color/colorBasket">
+
+            <ImageView
+                style="@style/SportsIconTheme"
+                android:src="@drawable/basket_player_icon" />
+
+            <TextView
+                style="@style/QuestionTextTheme"
+                android:text="@string/basketball_question_2" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            style="@style/RadioGroupTheme">
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/basketball_question_2_answer_1" />
+
+            <RadioButton
+                android:id="@+id/basketball_question_2_correct_answer"
+                style="@style/RadioButtonTheme"
+                android:text="@string/basketball_question_2_correct_answer" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/basketball_question_2_answer_2" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/basketball_question_2_answer_3" />
+        </RadioGroup>
+
+        <!-- Basketball Question 3 -->
+        <LinearLayout
+            style="@style/QuestionLayoutTheme"
+            android:background="@color/colorBasket">
+
+            <ImageView
+                style="@style/SportsIconTheme"
+                android:src="@drawable/basket_player_icon" />
+
+            <TextView
+                style="@style/QuestionTextTheme"
+                android:text="@string/basketball_question_3" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/basketball_question_3"
+            style="@style/InputTheme"
+            android:hint="@string/basketball_question_3_hint" />
+
+        <!-- Volleyball Question 1 -->
+        <LinearLayout
+            style="@style/QuestionLayoutTheme"
+            android:background="@color/colorVolley">
+
+            <ImageView
+                style="@style/SportsIconTheme"
+                android:src="@drawable/volley_player_icon" />
+
+            <TextView
+                style="@style/QuestionTextTheme"
+                android:text="@string/volley_question_1" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            style="@style/RadioGroupTheme">
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/volley_question_1_answer_1" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/volley_question_1_answer_2" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/volley_question_1_answer_3" />
+
+            <RadioButton
+                android:id="@+id/volleyball_question_1_correct_answer"
+                style="@style/RadioButtonTheme"
+                android:text="@string/volley_question_1_correct_answer" />
+        </RadioGroup>
+
+        <!-- Volleyball Question 2 -->
+        <LinearLayout
+            style="@style/QuestionLayoutTheme"
+            android:background="@color/colorVolley">
+
+            <ImageView
+                style="@style/SportsIconTheme"
+                android:src="@drawable/volley_player_icon" />
+
+            <TextView
+                style="@style/QuestionTextTheme"
+                android:text="@string/volley_question_2" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            style="@style/RadioGroupTheme">
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/volley_question_2_answer_1" />
+
+            <RadioButton
+                android:id="@+id/volleyball_question_2_correct_answer"
+                style="@style/RadioButtonTheme"
+                android:text="@string/volley_question_2_correct_answer" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/volley_question_2_answer_2" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/volley_question_2_answer_3" />
+        </RadioGroup>
+
+        <!-- Tenis Question 1 -->
+        <LinearLayout
+            style="@style/QuestionLayoutTheme"
+            android:background="@color/colorTenis">
+
+            <ImageView
+                style="@style/SportsIconTheme"
+                android:src="@drawable/tenis_player_icon" />
+
+            <TextView
+                style="@style/QuestionTextTheme"
+                android:text="@string/tenis_question_1" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            style="@style/RadioGroupTheme">
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/tenis_question_1_answer_1" />
+
+            <RadioButton
+                android:id="@+id/tenis_question_1_correct_answer"
+                style="@style/RadioButtonTheme"
+                android:text="@string/tenis_question_1_correct_answer" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/tenis_question_1_answer_2" />
+
+            <RadioButton
+                style="@style/RadioButtonTheme"
+                android:text="@string/tenis_question_1_answer_3" />
+        </RadioGroup>
+
+        <!-- Boxe Question 1 -->
+        <LinearLayout
+            style="@style/QuestionLayoutTheme"
+            android:background="@color/colorBoxe">
+
+            <ImageView
+                style="@style/SportsIconTheme"
+                android:src="@drawable/boxer_player_icon" />
+
+            <TextView
+                style="@style/QuestionTextTheme"
+                android:text="@string/boxe_question_1" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/boxe_question_1"
+            style="@style/InputTheme"
+            android:hint="@string/boxe_question_1_hint" />
+
+        <!-- End of the Quizz and Submission -->
+        <View style="@style/DividerLine" />
+
+        <Button
+            style="@style/SubmissionButton"
+            android:text="@string/submit"
+            android:onClick="submitScore"/>
+    </LinearLayout>
+</ScrollView>

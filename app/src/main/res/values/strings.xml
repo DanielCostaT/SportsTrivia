@@ -1,0 +1,82 @@
+<resources>
+    <!-- General App Strings -->
+    <string name="app_name">Sports Trivia</string>
+    <string name="intro">Welcome to the Sports Trivia! </string>
+    <string name="description">You will be challenged across some major sports questions, try your luck and see how far you can go! </string>
+    <string name="fill_request">Please fill in the data below before starting the quizz</string>
+    <string name="name_data">Your Name</string>
+    <string name="age_data">Age</string>
+    <string name="sex_data">Sex</string>
+    <string name="mail_data">Your E-mail</string>
+    <string name="submit">Submit</string>
+
+    <!-- Soccer Questions (3) -->
+    <string name="soccer_question_1">What is the national team that, with 5 world cup titles, is the top winner of the male competition?</string>
+    <string name="soccer_question_1_answer_1">Germany</string>
+    <string name="soccer_question_1_answer_2">Spain</string>
+    <string name="soccer_question_1_answer_3">Italy</string>
+    <string name="soccer_question_1_correct_answer">Brazil</string>
+
+    <string name="soccer_question_2">Among the following players, mark those who are recognized as some of the best soccer players of all times :</string>
+    <string name="soccer_question_2_correct_answer_1">Lionel Messi</string>
+    <string name="soccer_question_2_correct_answer_2">Ronaldo</string>
+    <string name="soccer_question_2_answer_1">Shakile Oneal</string>
+    <string name="soccer_question_2_answer_2">Michael Jordan</string>
+
+    <string name="soccer_question_3">How many players are there in a soccer team?</string>
+    <string name="soccer_question_3_correct_answer">11</string>
+    <string name="soccer_question_3_answer_1">13</string>
+    <string name="soccer_question_3_answer_2">15</string>
+    <string name="soccer_question_3_answer_3">9</string>
+
+    <!-- Basketball Questions (3) -->
+    <string name="basketball_question_1">Who was the last NBA team to be a champion 3 times in a row?</string>
+    <string name="basketball_question_1_answer_1">San Antonio Spurs</string>
+    <string name="basketball_question_1_answer_2">Miami Hit</string>
+    <string name="basketball_question_1_answer_3">Chicago Bulls</string>
+    <string name="basketball_question_1_correct_answer">Los Angeles Lakers</string>
+
+    <string name="basketball_question_2">What NBA All-Star player, known by many as a legend, also played a main character in the movies?</string>
+    <string name="basketball_question_2_answer_1">Kobe Bryant</string>
+    <string name="basketball_question_2_correct_answer">Michael Jordan</string>
+    <string name="basketball_question_2_answer_2">Magic Johnson</string>
+    <string name="basketball_question_2_answer_3">Larry Bird</string>
+
+    <string name="basketball_question_3">Name the NBA league champion in 2016 :</string>
+    <string name="basketball_question_3_hint">Player Name</string>
+    <string name="basketball_question_3_correct_answer">cleveland cavaliers</string>
+
+    <!-- Volleyball Questions (2) -->
+    <string name="volley_question_1">What national team has never been a world champion before?</string>
+    <string name="volley_question_1_answer_1">Brazil</string>
+    <string name="volley_question_1_answer_2">Cuba</string>
+    <string name="volley_question_1_answer_3">Italy</string>
+    <string name="volley_question_1_correct_answer">France</string>
+
+    <string name="volley_question_2">How many players are there in a volleyball team?</string>
+    <string name="volley_question_2_answer_1">3</string>
+    <string name="volley_question_2_correct_answer">6</string>
+    <string name="volley_question_2_answer_2">5</string>
+    <string name="volley_question_2_answer_3">7</string>
+
+    <!-- Tenis Questions (1) -->
+    <string name="tenis_question_1">How many points you need to enter the setpoint in a tenis match?</string>
+    <string name="tenis_question_1_answer_1">45</string>
+    <string name="tenis_question_1_correct_answer">40</string>
+    <string name="tenis_question_1_answer_2">30</string>
+    <string name="tenis_question_1_answer_3">2</string>
+
+    <!-- Boxe Questions (1) -->
+    <string name="boxe_question_1">Name the boxer who ripped off his opponents ear during a match in 1997 :</string>
+    <string name="boxe_question_1_hint">Boxer Name</string>
+    <string name="boxe_question_1_correct_answer">mike tyson</string>
+
+    <!-- Toast Score Messages -->
+    <string name="congratz_message">Congratulations! You have scored %s points in Sports Trivia.</string>
+
+    <!-- Player's Rating Messages for e-mail -->
+    <string name="rating_message_excelent">You are a beast!</string>
+    <string name="rating_message_good">You know it all! Almost perfect!</string>
+    <string name="rating_message_regular">You did well, think you can beat that score next time?</string>
+    <string name="rating_message_bad">Well, looks like you gotta try harder next time!</string>
+</resources>

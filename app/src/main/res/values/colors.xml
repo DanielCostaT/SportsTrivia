@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Theme Colors using materialpalette.com -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+    <color name="colorAccent">#448AFF</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <!-- Questions Theme Colors -->
+    <color name="colorSoccer">#8BC34A</color>
+    <color name="colorBasket">#FF9100</color>
+    <color name="colorVolley">#03A9F4</color>
+    <color name="colorTenis">#A84A26</color>
+    <color name="colorBoxe">#F43527</color>
+    <color name="colorQuestionText">#FFFFFF</color>
+</resources>

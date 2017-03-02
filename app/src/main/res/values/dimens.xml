@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Body Text margins -->
+    <dimen name="body_horizontal_margin">16dp</dimen>
+    <dimen name="body_vertical_margin">16dp</dimen>
+
+    <!-- Body Text sizes -->
+    <dimen name="body_text_size">16sp</dimen>
+    <dimen name="body_title_size">16sp</dimen>
+
+    <!-- Input Text sizes and margin-->
+    <dimen name="input_text_height">48dp</dimen>
+    <dimen name="input_text_size">14sp</dimen>
+    <dimen name="input_horizontal_margin">16dp</dimen>
+    <dimen name="input_vertical_margin">8dp</dimen>
+
+    <!-- RadioButton sizes and margin-->
+    <dimen name="radio_text_size">16sp</dimen>
+    <dimen name="radio_text_margin">8dp</dimen>
+    <dimen name="radio_horizontal_margin">16dp</dimen>
+    <dimen name="radio_vertical_margin">8dp</dimen>
+
+    <!-- Checkboxes sizes and margin-->
+    <dimen name="checkbox_text_size">16sp</dimen>
+    <dimen name="checkbox_text_margin">8dp</dimen>
+    <dimen name="checkbox_horizontal_margin">16dp</dimen>
+    <dimen name="checkbox_vertical_margin">8dp</dimen>
+
+    <!-- Question list sizes and margins -->
+    <dimen name="list_height">88dp</dimen>
+    <dimen name="list_margin">16dp</dimen>
+    <dimen name="list_text_margin">16dp</dimen>
+
+    <!-- Question Text sizes -->
+    <dimen name="question_text_size">16sp</dimen>
+
+
+</resources>
